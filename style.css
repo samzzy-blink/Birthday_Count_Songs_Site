@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(110, 39, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    background: rgb(11, 11, 68);
+    width: 80%;
+    border-radius: 10px;
+    height: 80%;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-left: 100px;
+    margin: 20px 0px;
+    /* padding-top: 40px; */
+}
+.header h1{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin-top:50px ;
+    margin-bottom: 20px;
+}
+.header p{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+.watch-clock{
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.day,.hour,.minute,.second{
+    font-size: 25px;
+    color: rgb(231, 231, 231);
+    font-family: cursive;
+    font-weight: 900;
+    line-height: 30px;
+}
+.countdown .terms{
+    color: rgb(185, 177, 177);
+    font-family:  Courier;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+.play, .throwback{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: cursive;
+    border-radius: 8px;
+    border: none;
+    color: rgb(218, 213, 213);
+    text-decoration: none;
+    background-color: crimson;
+    margin: 10px;
+
+}
+.words{
+    width: 50%;
+}
+.words h5{
+    color: rgb(214, 206, 206);
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 10px;
+}
