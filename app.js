@@ -1,7 +1,6 @@
 'use strict';
 
-let samm = 'sam';
-console.log(samm)
+
 
 const countDown = ()=>{
 
