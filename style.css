@@ -3,7 +3,8 @@
     padding: 0;
 }
 body{
-    background: rgb(110, 39, 192);
+    /* background: rgb(110, 39, 192); */
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
