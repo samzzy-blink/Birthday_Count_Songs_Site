@@ -4,7 +4,7 @@
 }
 body{
     /* background: rgb(110, 39, 192); */
-    background-color: black;
+    background: rgba(11, 11, 68, 0.822);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,12 @@ body{
 }
 section{
     background: rgb(11, 11, 68);
-    width: 80%;
+    width: 85%;
     border-radius: 10px;
-    height: 80%;
+    height: 90%;
     display: flex;
     align-items:flex-start;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* justify-content: center; */
     padding-left: 100px;
     margin: 20px 0px;
@@ -73,8 +73,15 @@ section{
     text-decoration: none;
     background-color: crimson;
     margin: 10px;
+    width: fit-content;
+
 
 }
+.anchor{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+} 
 .words{
     width: 50%;
 }
@@ -84,3 +91,28 @@ section{
     font-size: 16px;
     margin-top: 10px;
 }
+
+/* .width{
+    border: 50px dotted red;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+} */
+.overall{
+    width: 50%;
+    /* position: relative; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    height: 100%;
+}
+.max{
+   background-image: url('./images/person.jpg');
+   width: 300px;
+   height: 300px;
+    transform: rotate(20deg);
+    border-radius: 10%;
+    background-size: contain;
+}
+
